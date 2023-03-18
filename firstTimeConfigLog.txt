@@ -1,0 +1,29 @@
+ravimari@search:~/Documents$ cd git/
+ravimari@search:~/Documents/git$ ls
+firsttime
+ravimari@search:~/Documents/git$ git config --global user.name "ravimariyappan"
+ravimari@search:~/Documents/git$ git config --global user.email "ravi.m@zilogic.com"
+ravimari@search:~/Documents/git$ git init
+Reinitialized existing Git repository in /home/ravimari/Documents/git/.git/
+ravimari@search:~/Documents/git$ rm -rf .git/
+ravimari@search:~/Documents/git$ git init
+Initialized empty Git repository in /home/ravimari/Documents/git/.git/
+
+ravimari@search:~/Documents/git$ git add --all
+ravimari@search:~/Documents/git$ git commit -m "git config log"
+[master (root-commit) 84ea097] git config log
+ 1 file changed, 11 insertions(+)
+ create mode 100644 sample.txt
+ravimari@search:~/Documents/git$ git status
+On branch master
+nothing to commit, working tree clean
+ravimari@search:~/Documents/git$ git status --short
+ravimari@search:~/Documents/git$ git log
+commit 84ea09713376422f146e9bf66b66a59e32998ea0 (HEAD -> master)
+Author: ravimariyappan <ravi.m@zilogic.com>
+Date:   Sun Mar 19 01:24:07 2023 +0530
+
+    git config log
+ravimari@search:~/Documents/git$ git log --oneline
+84ea097 (HEAD -> master) git config log
+ravimari@search:~/Documents/git$ git >> sample.txt
