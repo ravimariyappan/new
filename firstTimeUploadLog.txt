@@ -27,3 +27,20 @@ Date:   Sun Mar 19 01:24:07 2023 +0530
 ravimari@search:~/Documents/git$ git log --oneline
 84ea097 (HEAD -> master) git config log
 ravimari@search:~/Documents/git$ git >> sample.txt
+
+ravimari@search:~/Documents/git$ git push --set-upstream origin master
+Username for 'https://github.com': ravimariyappan
+Password for 'https://ravimariyappan@github.com':
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 675 bytes | 675.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/ravimariyappan/new/pull/new/master
+remote:
+To https://github.com/ravimariyappan/new.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
